@@ -1,0 +1,42 @@
+.mainContainer{
+    
+    text-align: center;
+}
+.top{
+    margin-top: 30px;
+    padding: 5px;
+}
+.bgimg{
+    width: 50%;
+    opacity: 0.5;
+
+}
+.buttons >Button{
+  color: black;
+  width: 30%;
+  
+}
+
+#cardContainer 
+ {
+    width:80%;
+    margin-bottom: 5%;
+    margin-top: 5%;
+    margin-left:auto;
+    margin-right:auto;
+
+}
+.buttonleft{
+    background-color: #efdc75;
+}
+
+
+
+
+
+
+
+
+
+
+
