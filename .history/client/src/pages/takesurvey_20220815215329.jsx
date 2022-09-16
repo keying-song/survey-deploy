@@ -5,10 +5,10 @@ import {  useParams } from "react-router-dom";
 import TakeSurveyQuestion from "../components/takesurveyquestion.jsx"
 
 const Container = styled(FormGroup)`
-    width:80%;
+    width:50%;
     margin:5% auto 0 auto;
     &>div{
-        margin-top:1%;
+        margin-top:20px;
     }
 `
 const defaultValue={
@@ -43,14 +43,13 @@ const TakeSurvey=()=>{
 
     return(
         <Container>
-            
-            <div>
-                <div style={{textAlign:"center"}}>
-                <h2> {survey.name}</h2>
-               </div>
+            <Typography variant="h4">Take Survey</Typography>
+            <FormControl>
+                <h5 >survey name: {survey.name}</h5>
+               
                 
-                <TakeSurveyQuestion />
-            </div>
+                <TakeSurveyQuestion/>
+            </FormControl>
       </Container>
     )
 

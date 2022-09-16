@@ -81,16 +81,12 @@ const Report=()=>{
                                             
                                             </div>
                                             
-                                            
-                                           
-                                    </div>)
-                                   
-                                    }
-                                  
-                                     
-                                 </div> 
-                                 <Button component={Link} to={`/chartreport/${question._id}`}  >View Chart</Button> 
 
+                                    </div>)
+                                    
+                                    }
+                                   
+                                 </div>    
                         </Card>
                     ) 
                 } 

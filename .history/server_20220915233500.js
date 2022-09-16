@@ -22,7 +22,7 @@ const __dirname = dirname(__filename);
 
 //dotenv
 dotenv.config();
-const dburl = process.env.DB_URL||'mongodb+srv://sk1513:x2cKXAHTwTycHahu@cluster0.vi1vlrf.mongodb.net/survey?retryWrites=true&w=majority';
+const dburl = process.env.DB_URL||;
 //db
 Connection(dburl);
 
