@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const URL = 'https://survey-deploy-production.up.railway.app/api';
+const URL = 'https://centennialsurveygenerator.herokuapp.com/api';
 
 
 export const getUser = async()=>{
