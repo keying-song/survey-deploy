@@ -1,5 +1,5 @@
 import axios from 'axios';
-const URL = 'https://centennialsurveygenerator.herokuapp.com/api';
+const URL = 'https://surveygenerator-keying.herokuapp.com//api';
 
 export const userRegister = async(inputs)=>{
     try{
