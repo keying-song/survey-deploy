@@ -87,6 +87,8 @@ const Adduser=()=>{
                         <label htmlFor="" className="h2">
                             LOG IN
                         </label >
+                        <div>for visitor:</div>
+                        <div>username:admin    password:12345</div>
                     </div>
                 
                     <div className="form-group">
