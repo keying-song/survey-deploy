@@ -48,7 +48,7 @@ const Login = () => {
        <div className="container mt-5 mb-5 col-10 col-sm-8 col-md-6 col-lg-5">
       <div className="text-center mb-5 alert alert-primary">
         <label htmlFor="" className="h2">
-          Login
+          Login (username: admin   password:12345)
         </label >
       </div>
 
